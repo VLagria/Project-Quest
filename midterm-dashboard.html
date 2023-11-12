@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Midterm Quest | Dashboard</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+</head>
+
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Navbar Search -->
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="navbar-search" href="#" role="button">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <div class="navbar-search-block">
+                        <form class="form-inline">
+                            <div class="input-group input-group-sm">
+                                <input class="form-control form-control-navbar" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <div class="input-group-append">
+                                    <button class="btn btn-navbar" type="submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                    <button class="btn btn-navbar" type="button" data-widget="navbar-search">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+
+                <!-- Messages Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-comments"></i>
+                        <span class="badge badge-danger navbar-badge">3</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="../../dist/img/user1-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 mr-3 img-circle">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        Brad Diesel
+                                        <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">Call me whenever you can...</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="../../dist/img/user8-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 img-circle mr-3">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        John Pierce
+                                        <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">I got your message bro</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="../../dist/img/user3-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 img-circle mr-3">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        Nora Silvester
+                                        <span class="float-right text-sm text-warning"><i
+                                                class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">The subject goes here</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+                    </div>
+                </li>
+                <!-- Notifications Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-bell"></i>
+                        <span class="badge badge-warning navbar-badge">15</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <span class="dropdown-item dropdown-header">15 Notifications</span>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-envelope mr-2"></i> 4 new messages
+                            <span class="float-right text-muted text-sm">3 mins</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-users mr-2"></i> 8 friend requests
+                            <span class="float-right text-muted text-sm">12 hours</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-file mr-2"></i> 3 new reports
+                            <span class="float-right text-muted text-sm">2 days</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="" class="brand-link">
+                <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
+                    class="brand-image img-circle elevation-3" style="opacity: .8">
+                <span class="brand-text font-weight-light">Dashboard Quest</span>
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar user (optional) -->
+                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                    <div class="image">
+                        <img src="../../dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                    </div>
+                    <div class="info">
+                        <a href="#" class="d-block">User Account</a>
+                    </div>
+                </div>
+
+                <!-- SidebarSearch Form -->
+                <div class="form-inline">
+                    <div class="input-group" data-widget="sidebar-search">
+                        <input class="form-control form-control-sidebar" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <div class="input-group-append">
+                            <button class="btn btn-sidebar">
+                                <i class="fas fa-search fa-fw"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                        data-accordion="false">
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">
+                                <i class="nav-icon fas fa-tachometer-alt"></i>
+                                <p>
+                                    Midterm Quest
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="prelim-dashboard.html" class="nav-link">
+                                <i class="nav-icon fas fa-tachometer-alt"></i>
+                                <p>
+                                    Prelim Quest
+                                </p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1>Midterm Quest Page</h1>
+                        </div>
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active">Midterm Quest Page</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div><!-- /.container-fluid -->
+            </section>
+
+            <!-- Main content -->
+            <section class="content">
+
+                <!-- Default box -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Quest 1: <b>Video</b></h3>
+
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" disabled class="btn btn-tool" data-card-widget="remove"
+                                title="Remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"  src="https://rr2---sn-npoe7ns6.c.drive.google.com/videoplayback?expire=1699773920&ei=sFNQZeqDIYHBp84Pi-2FyAw&ip=120.72.24.37&id=656962cfa4a2a33f&itag=22&source=webdrive&requiressl=yes&xpc=EghonaK1InoBAQ==&mh=j6&mm=32&mn=sn-npoe7ns6&ms=su&mv=m&mvi=2&pl=24&ttl=transient&susc=dr&driveid=1uEg72We4diuveKznpmfAInP1z4S-hYE5&app=explorer&eaua=FeBO4f3VXs4&mime=video/mp4&vprv=1&prv=1&dur=186.061&lmt=1696966394148449&mt=1699762845&subapp=DRIVE_WEB_FILE_VIEWER&txp=0001224&sparams=expire,ei,ip,id,itag,source,requiressl,xpc,ttl,susc,driveid,app,eaua,mime,vprv,prv,dur,lmt&sig=ANLwegAwRQIhANBBtsfNtEMpmNS_j4zGoW7tRwG_SZlx-0ahZEK25LU0AiBYP1aY6Wr21HQ_np8fi5a73MhbHeVVnScsdK27mz8QrQ==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AM8Gb2swRQIgU3g2cUYufib9orBLaHbpiwZ0mEJ55vAfaNUYQx0DHd8CIQDzXD9Ad71KjFnBhvk_aTVr1zfR0dY_Y3rce73l7bckig==&cpn=dvqcNb1IlA31h6Z-&c=WEB_EMBEDDED_PLAYER&cver=1.20231107.01.00" sandbox="" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                        Quest 1: <b>Video</b>
+                    </div>
+                    <!-- /.card-footer-->
+                </div>
+                <!-- /.card -->
+
+
+
+                <!-- Default box -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Quest 2: <b>Application</b></h3>
+
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" disabled class="btn btn-tool" data-card-widget="remove"
+                                title="Remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        The Now Testament: A Covenant for Today <br><br>
+                        Chapter 1: The Eternal Connection
+                        In the beginning, there was a timeless covenant between the Creator and Creation. As the
+                        past and present converged, humanity sought to understand its place in the grand
+                        tapestry of existence. We recognize that history is not just a record of events but a
+                        living, breathing narrative. <br><br>
+                        Chapter 2: The Covenant of Responsibility
+                        Just as God bestowed the gift of free will upon humanity, we accept our responsibility
+                        to care for the Earth and all its inhabitants. In this moment, we commit to being
+                        stewards of the planet, protecting the environment, and ensuring justice and compassion
+                        for all living beings. <br><br>
+                        Chapter 3: The Covenant of Justice
+                        In every age, the pursuit of justice has been central to the covenant. Today, we pledge
+                        to uphold justice, equality, and human rights for all. We strive to eradicate prejudice,
+                        discrimination, and oppression, embracing the sacred value of every person. <br><br>
+                        Chapter 4: The Covenant of Knowledge
+                        In the Hebrew tradition, the pursuit of wisdom and knowledge is a sacred endeavor. We
+                        honor the search for truth, valuing education, and embracing the wisdom of diverse
+                        cultures and traditions. In our time, we commit to fostering a world where learning and
+                        understanding are cherished. <br><br>
+                        Chapter 5: The Covenant of Compassion
+                        Compassion is the heartbeat of our covenant. Just as God is compassionate, we must
+                        extend our hearts and hands to those in need. We pledge to alleviate suffering, provide
+                        for the less fortunate, and show kindness to all, embodying the divine attribute of
+                        compassion. <br><br>
+                        Chapter 6: The Covenant of Unity
+                        The Hebrew concept of history teaches us the interconnectedness of all things. We
+                        acknowledge the beauty of diversity and the strength of unity. We commit to building
+                        bridges, seeking common ground, and fostering harmony among individuals and nations.
+                        <br><br>
+                        Chapter 7: The Covenant of Hope
+                        Throughout history, hope has been a guiding light in the darkest of times. We embrace
+                        hope as a powerful force for change. In the face of adversity, we pledge to work
+                        tirelessly for a better world, believing that even in the most challenging moments,
+                        there is the potential for redemption and renewal. <br><br>
+                        Chapter 8: The Covenant of Remembrance
+                        The Hebrew tradition places great importance on remembrance. We remember the lessons of
+                        the past, the stories of our ancestors, and the struggles of those who came before us.
+                        Through remembrance, we find guidance and inspiration for our journey today. <br><br>
+                        Chapter 9: The Covenant of Prayer
+                        Prayer is a sacred dialogue between humanity and the Divine. In this moment, we commit
+                        to the practice of prayer, meditation, and reflection as a means to connect with the
+                        transcendent and seek guidance and strength for our shared journey. <br><br>
+                        Chapter 10: The Eternal Covenant
+                        In this "Now Testament," we recognize that the covenant between humanity and the Divine
+                        is an ongoing, ever-evolving relationship. Just as our ancestors forged their path, so
+                        too do we navigate the challenges and opportunities of our time. We embrace the eternal
+                        nature of this covenant, knowing that it transcends history and spans the ages.
+                        May this "Now Testament" serve as a source of inspiration, guidance, and unity for all
+                        who seek to honor the Hebrew concept of history and the enduring covenant between
+                        humanity and the Divine.
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                        Quest 2: <b>Application</b>
+                    </div>
+                    <!-- /.card-footer-->
+                </div>
+                <!-- /.card -->
+
+
+                                <!-- Default box -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Quest 3: <b>Analysis</b></h3>
+
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" disabled class="btn btn-tool" data-card-widget="remove"
+                                title="Remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        1. Why does the Biblical Religion uphold the idea that God Himself communicated to His people through the Bible? <br><br>
+                        The belief that God communicated to His people through the Bible in Biblical religions is a fundamental aspect of their faith. It is based on the concepts of divine inspiration, covenantal relationships, direct revelation, guidance, historical continuity, and religious authority that are deeply ingrained in these religious traditions. <br> <br>
+
+                        2. How did people understand God as a supernatural being rather than an everyday person? <br><br>
+
+                        The understanding of God as a supernatural being is shaped by a combination of divine revelations, theological reflections, cultural influences, and the recognition of divine attributes that set God apart from everyday human beings. These factors have collectively contributed to the concept of God as a transcendent and supernatural entity in various religious traditions. <br><br>
+
+
+                        3. How did God reveal and share who He is with humanity?  <br><br>
+
+                        Each tradition has its own sacred texts and central figures through which God's revelation is conveyed to humanity. Believers in these religions turn to these sources to gain understanding and knowledge about who God is and how to live according to His will.
+
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                        Quest 3: <b> Analysis</b>
+                    </div>
+                    <!-- /.card-footer-->
+                </div>
+                <!-- /.card -->
+
+                                                <!-- Default box -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Quest 4: <b> Analysis</b></h3>
+
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" disabled class="btn btn-tool" data-card-widget="remove"
+                                title="Remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        How would the Bible help you nourish your Faith and Prayer Life?
+                        <br><br>
+                        The Bible can be a rich source of food for one's faith and prayer life, especially for those enduring adversity. For starters, the Bible serves as a spiritual anchor during difficult times. Its ageless wisdom and stories of resilience, hope, and redemption can provide consolation and strength when confronted with life's challenges. Reading texts such as Psalm 23 or the story of Job might help you remember God's presence and His capacity to support you through adversity.
+                        <br><br>
+                        Second, the Bible provides counsel for dealing with life's obstacles. Its teachings on love, forgiveness, and the value of faith can help you make sense of your experiences and guide your actions down a more positive and faith-filled path. For example, Jesus' teachings on forgiveness and loving your neighbor might encourage you to seek reconciliation and peace even in the midst of tragedy.
+                        <br><br>
+                        Third, the Bible can enrich your prayer life by offering words and themes for your prayers. When you come across texts that relate to your challenges, you can utilize them as a starting point for your dialogue with God. This not only allows you to express your feelings and concerns, but it also builds your connection with God as you engage in a dialogue of faith and trust. In this sense, the Bible becomes a great instrument for nourishing your faith and prayer life, providing sustenance and guidance in the midst of life's hardships.
+                        <br><br>
+                        The Bible serves as a profound source of nourishment for our faith and prayer life, through offering meaningful insights that go beyond mere moral values. It becomes our compass on the journey to becoming devout servants of God, guiding us to lead lives aligned with His divine will. Within its pages, we find a roadmap to a faithful existence, replete with core principles that mold us into individuals of righteousness. The Bible comprises various stories, each bearing significant impact, instilling hope and allowing us to hold fast to that hope. Reading and comprehending the narratives contained within the Bible. For instance, the wisdom bestowed upon notable biblical figures serve as pillars of our faith.
+                        <br><br>
+                        The Bible has a pivotal role in our life, it becomes our foundation, particularly in moments of adversity, where its teachings and words remind us of the comforting presence of the Almighty. It becomes a source of solace and a beacon of hope. Moreover, within the Bible’s sacred verses lie treasure beyond valuable in our spiritual growth. The Bible seamlessly integrates our daily life, enriching our faith and prayer life.
+
+
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                        Quest 4: <b> Analysis</b>
+                    </div>
+                    <!-- /.card-footer-->
+                </div>
+                <!-- /.card -->
+
+                                                <!-- Default box -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Quest 5: <b>Analysis</b></h3>
+
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" disabled class="btn btn-tool" data-card-widget="remove"
+                                title="Remove">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        
+                    1. What contribution do they make to the faith story? <br><br>
+                    Making a contribution to the Faith in Jesus Christ can motivate us to follow His perfect example (So in John 14:12 Jesus is saying that his disciples will not only continue his works, but will do greater ones because he goes to the Father). Our faith can lead us to do good works, obey the commandments, and repent of our sins (see James 2:18; 1 Nephi 3:7; Alma 34:17). (These verses refer to the previous two verses, where James says that having faith without works is like telling a poor man to be warmed and clothed without actually giving him something to warm or clothe himself.) Our faith can help us overcome temptation. <br><br>
+
+                    2. What are the Bible reference materials? <br><br>
+                    The reference materials include: Dictionaries (Hitchcock's Bible Names Dictionary, Smith's Bible Dictionary, Vine's Expository Dictionary of New Testament Words, etc.); Encyclopedias (Encyclopedia of New Testament Textual Criticism, Encyclopedia of Pentecostal History, Nave's Topical Bible, etc. <br><br>
+
+                    3. How the Biblical Literature depicts biblical history—to see the flow of God's activity? <br><br>
+                    The Biblical literature tells a narrative of God's activity through events, people, and nations. It begins with Genesis, focusing on God's role as the universe's creator. The Old Testament details the Israelite people's covenant with God, prophetic messages, and religious practices. The New Testament focuses on Jesus Christ's life, teachings, and the early Christian church. The narrative demonstrates God's love, mercy, justice, and desire for a relationship with humanity.
+                        <br><br>
+                    4. How to know about some of the critical religious leaders, and how have they shaped the faith? <br><br>
+                    Shaping their respective faith requires a complete and various approach. It needs a variety of activities such as studying historical records, reading biographies and scared scriptures, engaging with religious communities, seeking advice of experts, and reflecting on the leader’s teaching. By following these steps, you can gain deeper understanding of the religious leader’s life, beliefs and influence on the faith, as well as their impact on the world. This research needs to be conducted with an open mind and respect for all involved. <br><br>
+
+
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                        Quest 5: <b> Analysis</b>
+                    </div>
+                    <!-- /.card-footer-->
+                </div>
+                <!-- /.card -->
+
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+
+        <footer class="main-footer">
+            <div class="float-right d-none d-sm-block">
+                <b>Version</b> 3.2.0
+            </div>
+            <strong>Copyright &copy; 2023 <a href="">Gwennete Fer</a>.</strong> All rights
+            reserved.
+        </footer>
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
+    </div>
+    <!-- ./wrapper -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var video = document.getElementById('myVideo');
+    
+            // Pause the video before leaving the page
+            window.addEventListener('beforeunload', function () {
+                video.pause();
+            });
+    
+            // Save the current time when the page unloads
+            window.addEventListener('unload', function () {
+                localStorage.setItem('videoCurrentTime', video.currentTime);
+            });
+    
+            // Check if there's a saved time and set it when the page loads
+            var savedTime = localStorage.getItem('videoCurrentTime');
+            if (savedTime) {
+                video.currentTime = savedTime;
+            }
+        });
+    </script>
+    <!-- jQuery -->
+    <script src="../../plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../../dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../../dist/js/demo.js"></script>
+    
+    
+</body>
+
+</html>
